@@ -1,0 +1,80 @@
+
+.kettle {
+    text-align: center;
+}
+
+/* Поливалка */
+.kettle .watering-offer {
+    opacity: 0;
+    transform: translate(17%, 35%);
+}
+
+.kettle .watering-offer.active {
+    animation-name: teapotAnimation;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    animation-play-state: running;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes teapotAnimation {
+    0% {
+        opacity: 0;
+        transform: translate(17%, 35%);
+    }
+
+    20% {
+        opacity: 1;
+        transform: translate(4%, 3%);
+    }
+
+    40% {
+        transform: translate(4%, 30%) rotate(-30deg);
+    }
+
+    90% {
+        opacity: 1;
+        transform: translate(17%, 35%) rotate(0deg);
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+/* Капелька */
+.kettle .drop-offer {
+    opacity: 0;
+    transform: translate(0%, 0%);
+}
+
+.kettle .drop-offer.active {
+    animation-name: dropAnimation;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-play-state: running;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes dropAnimation {
+    0% {
+        opacity: 0;
+        transform: translate(0%, 0%);
+    }
+
+    10% {
+        opacity: 1;
+    }
+
+    90% {
+        opacity: 1;
+        transform: translate(0%, 200%);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translate(0%, 200%);
+    }
+}

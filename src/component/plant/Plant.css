@@ -1,0 +1,7 @@
+.plant {
+    text-align: center;
+}
+
+.plant .cactus-offer {
+    transform: translate(0px, 50px);
+}

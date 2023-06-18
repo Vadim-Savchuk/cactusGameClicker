@@ -1,0 +1,13 @@
+.message {
+    color: #000;
+    display: flex;
+    font-size: 22px;
+    font-size: 20px;
+    font-weight: 700;
+    max-width: 300px;
+    min-height: 100px;
+    align-items: center;
+    line-height: normal;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

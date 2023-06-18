@@ -1,0 +1,23 @@
+.wall {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.wall_header {
+    height: 62%;
+    z-index: -2;
+    background-color: #1bd063;
+}
+
+.wall_plank {
+    height: 2%;
+    z-index: -2;
+    background-color: #646842;
+}
+
+.wall_footer {
+    height: 36%;
+    z-index: -2;
+    background-color: #d7e17d;
+}

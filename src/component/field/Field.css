@@ -1,0 +1,11 @@
+.field {
+    flex: 1;
+    transform: scale(1.2);
+}
+
+.cat {
+    left: 10%;
+    bottom: 15%;
+    width: 100px;
+    position: absolute;
+}
