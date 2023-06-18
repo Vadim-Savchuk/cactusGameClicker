@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/cactusGameClicker/static/css/main.f8aba496.css",
+    "main.js": "/cactusGameClicker/static/js/main.6183c50f.js",
+    "static/media/giphy.gif": "/cactusGameClicker/static/media/giphy.ce6ab953a7fac92912a5.gif",
+    "index.html": "/cactusGameClicker/index.html",
+    "main.f8aba496.css.map": "/cactusGameClicker/static/css/main.f8aba496.css.map",
+    "main.6183c50f.js.map": "/cactusGameClicker/static/js/main.6183c50f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f8aba496.css",
+    "static/js/main.6183c50f.js"
+  ]
+}
