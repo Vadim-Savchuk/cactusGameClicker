@@ -1,8 +1,13 @@
-import { useEffect } from 'react';
+import { useCallback, useEffect, useState } from 'react';
 
 import './Message.css'
 
-function Message({ account, message, messageHandler }) {
+function Message({ account, }) {
+    const [message, setMessage] = useState('')
+
+    const messageHandler = useCallback((text) => {
+        setMessage(text)
+    }, [])
 
     useEffect(() => {
         if (account === 1) {

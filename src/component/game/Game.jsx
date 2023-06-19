@@ -7,15 +7,15 @@ import Regulations from '../regulations/Regulations';
 import './Game.css'
 
 function Game(props) {
-    const { account, remainingTime, isClicked, toWaterHandler, activeWatering, message, messageHandler } = props;
+    const { account, isClicked, toWaterHandler, activeWatering } = props;
 
     return (
         <div className='game'>
             <Regulations />
             <Account account={account} />
-            <Timer time={remainingTime} isClicked={isClicked} />
+            <Timer isClicked={isClicked} />
             <Button toWaterHandler={toWaterHandler} activeWatering={activeWatering} />
-            <Message account={account} message={message} messageHandler={messageHandler} />
+            <Message account={account} />
         </div>
     );
 }

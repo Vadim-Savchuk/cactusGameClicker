@@ -1,11 +1,14 @@
 .field {
     flex: 1;
-    transform: scale(1.2);
+    width: 100%;
+    height: 100%;
+    justify-content: end;
 }
 
 .cat {
     left: 10%;
     bottom: 15%;
-    width: 100px;
+    z-index: -1;
+    width: 120px;
     position: absolute;
 }

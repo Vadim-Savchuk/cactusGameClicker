@@ -1,9 +1,14 @@
+import useCountdownToMidnight from '../../hocs/useCountdownToMidnight';
+
 import './Timer.css'
 
-function Timer({ time, isClicked }) {
+function Timer({ isClicked }) {
+
+    const remainingTime = useCountdownToMidnight()
+
     return (
         <div className='timer'>
-            <div className='time'>{isClicked ? time : 'Розпочати'}</div>
+            <div className='time'>{isClicked ? remainingTime : 'Розпочати'}</div>
         </div>
     );
 }
