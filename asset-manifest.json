@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/cactusGameClicker/static/css/main.f8aba496.css",
-    "main.js": "/cactusGameClicker/static/js/main.6183c50f.js",
+    "main.css": "/cactusGameClicker/static/css/main.266b9133.css",
+    "main.js": "/cactusGameClicker/static/js/main.3f2a032a.js",
     "static/media/giphy.gif": "/cactusGameClicker/static/media/giphy.ce6ab953a7fac92912a5.gif",
+    "static/media/drop.mp3": "/cactusGameClicker/static/media/drop.1f8cc418edb7c6daaa9d.mp3",
     "index.html": "/cactusGameClicker/index.html",
-    "main.f8aba496.css.map": "/cactusGameClicker/static/css/main.f8aba496.css.map",
-    "main.6183c50f.js.map": "/cactusGameClicker/static/js/main.6183c50f.js.map"
+    "main.266b9133.css.map": "/cactusGameClicker/static/css/main.266b9133.css.map",
+    "main.3f2a032a.js.map": "/cactusGameClicker/static/js/main.3f2a032a.js.map"
   },
   "entrypoints": [
-    "static/css/main.f8aba496.css",
-    "static/js/main.6183c50f.js"
+    "static/css/main.266b9133.css",
+    "static/js/main.3f2a032a.js"
   ]
 }
